@@ -1,0 +1,132 @@
+@import url("https://fonts.googleapis.com/css2?family=Kumbh+Sans&display=swap");
+body {
+  margin: 0;
+  padding: 0;
+  overflow-x: hidden;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  background: #19a1ad;
+  font-family: 'Kumbh Sans', sans-serif;
+  font-weight: 400;
+}
+
+body .background-imgs {
+  position: relative;
+  z-index: -1;
+}
+
+body .background-imgs .top {
+  position: absolute;
+  top: -500px;
+  left: -500px;
+  width: 1000px;
+}
+
+body .background-imgs .bottom {
+  position: absolute;
+  top: 0;
+  left: 100px;
+  width: 1000px;
+}
+
+body .container {
+  margin-top: 5em;
+}
+
+body .container main {
+  border-radius: 20px;
+  background: #fff;
+}
+
+body .container main .bold {
+  color: #2f313e;
+  font-size: 25px;
+  font-weight: 700;
+}
+
+body .container main .card-pattern img {
+  border-radius: 20px 20px 0 0;
+}
+
+body .container main .pfp {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  margin: 0;
+  margin-top: -50px;
+}
+
+body .container main .pfp img {
+  border-radius: 50%;
+  border: 5px #fff solid;
+}
+
+body .container main .name-age {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+body .container main .name-age .name {
+  margin: 5px;
+}
+
+body .container main .name-age .age {
+  margin: 0;
+  margin-top: 5px;
+  color: #706f75;
+}
+
+body .container main .london {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+body .container main .london p {
+  margin-top: 0;
+  color: #706f75;
+}
+
+body .container main .stats {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+  text-align: center;
+}
+
+body .container main .stats .num {
+  margin: 0;
+}
+
+body .container main .stats .label {
+  margin: 5px;
+}
+
+@media (min-width: 800px) {
+  body {
+    overflow: hidden;
+  }
+}
+/*# sourceMappingURL=style.css.map */

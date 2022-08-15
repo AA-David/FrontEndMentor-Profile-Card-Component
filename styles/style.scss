@@ -1,0 +1,133 @@
+@import url('https://fonts.googleapis.com/css2?family=Kumbh+Sans&display=swap');
+
+body {
+    margin: 0;
+    padding: 0;
+
+    overflow-x: hidden;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    background: #19a1ad;
+
+    font-family: 'Kumbh Sans', sans-serif;
+    font-weight: 400;
+
+    .background-imgs {
+        position: relative;
+        z-index: -1;
+
+        .top {
+            position: absolute;
+            top: -500px;
+            left: -500px;
+
+            width: 1000px;
+        }
+
+        .bottom {
+            position: absolute;
+            top: 0;
+            left: 100px;
+
+            width: 1000px;
+        }
+    }
+
+    .container {
+        margin-top: 5em;
+
+        main {
+            border-radius: 20px;
+            background: #fff;
+
+            .bold {
+                color: #2f313e;
+
+                font-size: 25px;
+                font-weight: 700;
+            }
+
+            .card-pattern {
+                img { border-radius: 20px 20px 0 0; }
+            }
+
+            .pfp {
+                display: flex;
+                justify-content: center;
+
+                margin: 0;
+                margin-top: -50px;
+
+                img {
+                    border-radius: 50%;
+                    border: 5px #fff solid;
+                }
+            }
+
+            .name-age {
+                display: flex;
+                justify-content: center;
+                align-items: center;
+
+                .name {
+                    margin: 5px;
+                }
+
+                .age {
+                    margin: 0;
+                    margin-top: 5px;
+
+                    color: #706f75;
+                }
+            }
+
+            .london {
+                display: flex;
+                justify-content: center;
+
+                p {
+                    margin-top: 0;
+                    color: #706f75;
+                }
+            }
+
+            .stats {
+                display: flex;
+                justify-content: space-around;
+
+                text-align: center;
+
+                .num {
+                    margin: 0;
+                }
+
+                .label {
+                    margin: 5px;
+                }
+            }
+        }
+    }
+}
+
+@media (min-width: 800px) {
+    body {
+        overflow: hidden;
+    }
+
+    // .background-imgs {
+    //     .top {
+    //         position: absolute;
+    //         top: -100% !important;
+    //         left: -50% !important;
+    //     }
+
+    //     .bottom {
+    //         position: absolute;
+    //         top: 50% !important;
+    //         left: 50% !important;
+    //     }
+    // }
+}
